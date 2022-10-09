@@ -4,8 +4,8 @@
  
 ### Contents
 - ##### [Building Hashlink from source](#1-building-hashlink-from-source)
-- ##### [Building HL/C](#2.Building-hl-c)
-- ##### [(Optional) Easy Compile and Run](#3.Easy-compile-and-run)
+- ##### [Building HL/C](#2.Building-hlc)
+- ##### [(Optional) Easy Compile and Run](#3-optional-easy-compile-and-run)
 &nbsp;
 
 ---
