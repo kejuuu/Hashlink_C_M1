@@ -25,9 +25,9 @@ Modify your `Makefile` using your favourite text editor like this:
     - add `-I /opt/homebrew/opt/openal-soft/include -I /opt/homebrew/include/SDL2 -I /opt/homebrew/opt/jpeg-turbo/include -I /opt/homebrew/opt/libpng/include -I /opt/homebrew/opt/libvorbis/include -I /opt/homebrew/opt/libogg/include -I /opt/homebrew/opt/mbedtls@2/include -I /opt/homebrew/opt/libuv/include` to your `CFLAGS`
     - Set your `LIBFLAGS` to  `-L /opt/homebrew/opt/openal-soft/lib -L/opt/homebrew/lib -L/opt/homebrew/opt/jpeg-turbo/lib -L/opt/homebrew/opt/libpng/lib -L/opt/homebrew/opt/libvorbis/lib -L/opt/homebrew/opt/libogg/lib -L/opt/homebrew/opt/mbedtls@2/lib -L/opt/homebrew/opt/libuv/lib`
     - Comment out `# HL_DEBUG = include/mdbg/mdbg.o include/mdbg/mach_excServer.o include/mdbg/mach_excUser.o` and `# LIB += ${HL_DEBUG}`
-    - If you want, you can download the makefile i used in the asset above, or just go [here]() (Untested)
+    - If you want, you can download the makefile i used in the asset above, or just go [here](https://github.com/kejuuu/Hashlink_C_M1/blob/main/Makefile) (Untested)
 - Back on your terminal, run `make libhl && make libs`, This will give you: `libhl.dylib`, `fmt.hdll`, `mysql.hdll`, `openal.hdll`, `sdl.hdll`, `ssl.hdll`, `ui.hdll` and `uv.hdll`
-- You can also try to use the files from my repository [here]()
+- You can also try to use the files from my repository [here](https://github.com/kejuuu/Hashlink_C_M1/tree/main/Hashlink_Built_Libraries) (Untested)
 - Congratulation, you have finished building hashlink libraries, go to the next step 
 
 &nbsp;
@@ -57,7 +57,7 @@ Modify your `Makefile` using your favourite text editor like this:
 
 ## 3. (Optional) Easy Compile and Run
 To make the process of compiling and running your game repeatedly easier, i've created a simple script to automate the gcc stuff
-- Download [macos_c_compile]() and [macos_c_compile_n_run]() from this repository, and inside you will find 
+- Download [macos_c_compile](https://github.com/kejuuu/Hashlink_C_M1/blob/main/macos_c_compile) and [macos_c_compile_n_run](https://github.com/kejuuu/Hashlink_C_M1/blob/main/macos_c_compile_n_run) from this repository, and inside you will find 
     ```sh
     #!/bin/bash
     cd build/macos
