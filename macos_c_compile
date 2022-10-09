@@ -1,0 +1,3 @@
+#!/bin/bash
+cd build/macos
+gcc -O3 -o main main.c -lhl -I/PATH/TO/HASHLINK/SRC/ -I. -L. fmt.hdll mysql.hdll sdl.hdll openal.hdll ssl.hdll ui.hdll uv.hdll
