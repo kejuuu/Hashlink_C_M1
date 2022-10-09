@@ -3,9 +3,9 @@
 **This is a comprehensive guide on how to build hashlink from source for M1 mac and using it to compile your heaps.io game on windows and mac. This does not run  `.hl`, rather, making a heaps project runnable on M1 mac by exporting it to a c project and using gcc to build / compile it.**
  
 ### Contents
-- ##### [Building Hashlink from source](##1.Building-hashlink-from-source)
-- ##### [Building HL/C](##2.Building-hl-c)
-- ##### [(Optional) Easy Compile and Run](##3.Easy-compile-and-run)
+- ##### [Building Hashlink from source](#1-building-hashlink-from-source)
+- ##### [Building HL/C](#2.Building-hl-c)
+- ##### [(Optional) Easy Compile and Run](#3.Easy-compile-and-run)
 &nbsp;
 
 ---
